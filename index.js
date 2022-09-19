@@ -5,14 +5,16 @@ const Benchmark = require("benchmark");
 // const rotateImage = require("./leetcode/array/rotate-image");
 // const countPrimes = require("./leetcode/math/count-primes");
 // const twoSum = require("./leetcode/array/two-sum");
-const deleteNode = require("./leetcode/linked-lists/delete-node");
+// const deleteNode = require("./leetcode/linked-lists/delete-node");
+const removeNthFromEnd = require("./leetcode/linked-lists/remove-node-from-end");
 
 const rinha = {
   // ...singleNumber,
   // ...intersectionTwoSortedArrays2
   // ...rotateImage,
   // ...countPrimes,
-  ...deleteNode,
+  // ...deleteNode,
+  ...removeNthFromEnd,
 };
 
 const suite = new Benchmark.Suite();
