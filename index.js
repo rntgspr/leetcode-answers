@@ -6,7 +6,8 @@ const Benchmark = require("benchmark");
 // const countPrimes = require("./leetcode/math/count-primes");
 // const twoSum = require("./leetcode/array/two-sum");
 // const deleteNode = require("./leetcode/linked-lists/delete-node");
-const removeNthFromEnd = require("./leetcode/linked-lists/remove-node-from-end");
+// const removeNthFromEnd = require("./leetcode/linked-lists/remove-node-from-end");
+const reverseString = require("./leetcode/string/reverse-string");
 
 const rinha = {
   // ...singleNumber,
@@ -14,8 +15,11 @@ const rinha = {
   // ...rotateImage,
   // ...countPrimes,
   // ...deleteNode,
-  ...removeNthFromEnd,
+  // ...removeNthFromEnd,
+  ...reverseString,
 };
+
+console.log("rinha", reverseString);
 
 const suite = new Benchmark.Suite();
 
